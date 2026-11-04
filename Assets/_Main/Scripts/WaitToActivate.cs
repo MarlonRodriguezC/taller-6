@@ -9,6 +9,10 @@ public class WaitToActivate : MonoBehaviour
     [SerializeField] private GameObject tapa1;
     [SerializeField] private GameObject taparInteractuable;
     [SerializeField] private float secondsToWaits;
+    private void Awake()
+    {
+        
+    }
     public void _2daInteraccion()
     {
         StartCoroutine(Prender2daInteraccion(secondsToWaits));
