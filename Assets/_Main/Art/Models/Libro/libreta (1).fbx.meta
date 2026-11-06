@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: libreta
-    second: {fileID: 2100000, guid: 35ae6196c90a44349a48e60eeac32054, type: 2}
+    second: {fileID: 2100000, guid: 04ae016c1f9c84e4198ad55faffb2247, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
