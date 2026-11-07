@@ -3361,7 +3361,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 97450088}
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
---- !u!1 &1528335805
+--- !u!1 &1482926383
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3369,22 +3369,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1528335807}
-  - component: {fileID: 1528335806}
+  - component: {fileID: 1482926385}
+  - component: {fileID: 1482926384}
   m_Layer: 0
-  m_Name: Global Volume
+  m_Name: Global Volume (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1528335806
+--- !u!114 &1482926384
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1528335805}
+  m_GameObject: {fileID: 1482926383}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
@@ -3394,17 +3394,17 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: 7e762a6bb41208247835ebf32ba59259, type: 2}
---- !u!4 &1528335807
+  sharedProfile: {fileID: 11400000, guid: b8ce5c781df949c4789e7df3b2c7183f, type: 2}
+--- !u!4 &1482926385
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1528335805}
+  m_GameObject: {fileID: 1482926383}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.25280154, y: 2.4640856, z: 2.8671315}
+  m_LocalPosition: {x: -1.5242528, y: 1.3673753, z: 6.021963}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24617,4 +24617,4 @@ SceneRoots:
   - {fileID: 1942935502}
   - {fileID: 1045129344}
   - {fileID: 1785853516}
-  - {fileID: 1528335807}
+  - {fileID: 1482926385}
